@@ -33,7 +33,6 @@ int linearSearch(vector<string> dataset, string element) {
     int i = 0;
     while (i < dataset.size()) {
         if (dataset.at(i) == element) {
-            // do time shit
             return i;
         }
         i = i + 1;
